@@ -43,10 +43,10 @@
 
 <body class="loading">
   <div id="splash"></div>
-  <demo-web-container app-title="Tools App" id="app__content" detail-variant="dark">
-    <demo-menu-container-web slot="nav"></demo-menu-container-web>
-    <demo-header-container clip-initials="JS" clip-label="Javier Sánchez" slot="app-header"></demo-header-container>
-    <demo-detail-container slot="app-detail-content"></demo-detail-container>
+  <demo-web-container app-title="Tools App" id="app__content" >
+    
+    
+    
   </demo-web-container>
 
   <!-- for a11y purposes -->
