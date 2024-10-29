@@ -27,8 +27,8 @@
     "@cells/cells-bridge": "^3.17.0",
     "@cells/cells-page-mixin": "^1.0.0",
     "@open-wc/lit-helpers": "^0.3.0",
-    "@pokemondex/evolution-pokemon": "git+https://github.com/Daalmodi/Evolucion-de-Pokemones.git#f59290104ff6bc9a428979498d97718ac836b512",
-    "@pokemondex/list-pokemon": "git+https://github.com/Daalmodi/Lista-de-pokemones-.git#eff2183b52174fcdb36153bf5172ad4240958db9",
+    "@pokemondex/evolution-pokemon": "git+https://github.com/Daalmodi/Evolucion-de-Pokemones.git#3099f0482c3edb7acd7cf31dd11693d6292cfd26",
+    "@pokemondex/list-pokemon": "git+https://github.com/Daalmodi/Lista-de-pokemones-.git#0e8da70587eaa4723fe3f9ba82fb4632633cd64c",
     "@webcomponents/webcomponentsjs": "^2.5.0",
     "cells-app-template": "^6.0.0",
     "lit-element": "^2.0.0"
