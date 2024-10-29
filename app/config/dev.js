@@ -24,7 +24,7 @@ const appConfig = {
      */
     pagesPath: './pages/',
     prplLevel: 1,
-    initialBundle: [ 'login' ],
+    initialBundle: [ 'pokemon' ],
 
     /* Internationalization options */
     locales: {

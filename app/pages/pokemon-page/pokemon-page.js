@@ -3,6 +3,7 @@ import { html, LitElement } from 'lit-element';
 import { BbvaCoreIntlMixin as intl } from '@bbva-web-components/bbva-core-intl-mixin';
 import '@cells-demo/demo-web-template/demo-web-template.js';
 import '@pokemondex/list-pokemon/list-pokemon.js';
+import styles from './pokemon-page-styles';
 
 class PokemonPage extends intl(cellsPage(LitElement)) {
   static get is() {
@@ -11,8 +12,11 @@ class PokemonPage extends intl(cellsPage(LitElement)) {
 
   constructor() {
     super();
-    this.nombre = 'Pokemones';
 
+
+  }
+  static get styles() {
+    return [ styles ];
   }
 
   render() {
@@ -20,9 +24,10 @@ class PokemonPage extends intl(cellsPage(LitElement)) {
     return html`
       <demo-web-template page-title="Pokemon">
 
-      <div slot="app-main-content">
-        <h1> ${this.nombre}</h1>
-        <p>Lista de Pokémones:</p>
+      <div slot="app-main-content" class="main">
+        <h1 id="title"> ${this.t('titulo')}</h1>
+        <p>${this.t('Descripcion')}</p>
+        <div class="divider"></div>
         <list-pokemon></list-pokemon>
       </div">
 

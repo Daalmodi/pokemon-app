@@ -45,3 +45,5 @@ composer/exports/export_*
 composer/exports/current/_bck
 app/composerMocksTpl/_bck
 *-specs.json
+
+package-lock.json

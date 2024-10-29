@@ -8,6 +8,10 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Noto+Sans+JP:wght@100..900&family=Rubik+Wet+Paint&family=Varela+Round&display=swap" rel="stylesheet">  
   <title>pokemon-app</title>
   <!-- Place favicon.ico in the `app/` directory -->
 

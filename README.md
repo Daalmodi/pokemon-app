@@ -1,6 +1,6 @@
 # What's this project about?
 
-This project aims to be an example application showing the Platform capabilities, as well as a starting project/boilerplate for your project, and a quick guide about how to build applications with Cells Platform.
+Este proyecto utiliza el framework BBVA Cells para crear una aplicación de front end que consume una API pública de Pokémon. Aprovechando el catálogo de componentes del banco BBVA, se desarrollan dos componentes de interfaz de usuario (UI): uno para listar los Pokémon y otro para mostrar sus evoluciones. La gestión y consumo de la API están a cargo de un componente Data Manager (DM), que se encarga de manejar eficientemente los datos obtenidos. Este enfoque facilita la integración de tecnologías avanzadas en la plataforma y ofrece una experiencia de usuario rica e interactiva.
 
 ## What has it got?
 
